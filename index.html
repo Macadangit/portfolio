@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+    
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" title="So Nice You Have To Say It Twice" href="#">Adrian Macadangdang</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Side -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h1 class="display-4 fw-bold">Let's Work.</h1>
+          <p class="lead mb-4">
+            I'm a results-driven IT professional with experience in an Enterprise environment and Cybersecurity.
+          </p>
+          <a href="#projects" class="btn view-work-btn me-2">View My Work</a>
+          <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+          <div class="mt-4">
+            <!-- Social Links -->
+            <a href="#" class="text-light me-3"><i class="bi bi-github"></i></a>
+            <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+  
+        <!-- Image Side -->
+        <div class="col-lg-6 text-center">
+          <img src="assets/images/Iso_Artwork_Full.webp" alt="Your Photo" class="img-fluid shadow" style="max-width: 70%;">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="skills" class="py-5">
+    <div class="skills-widget p-4 container">
+      <h2 class="my-tools-title text-center">My Tools & Skills</h2>
+  
+      <!-- Tabs Navigation -->
+      <ul class="nav nav-pills justify-content-center mb-4" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#skills-content" type="button" role="tab">Skills</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tools-content" type="button" role="tab">Tools</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#certifications-content" type="button" role="tab">Certifications</button>
+        </li>
+      </ul>
+  
+      <!-- Tabs Content -->
+      <div class="tab-content">
+  
+        <!-- Skills Tab -->
+        <div class="tab-pane fade show active" id="skills-content" role="tabpanel">
+          <div class="row text-center">
+            <div class="col-6 col-md-3 mb-4">
+              <div class="progress-donut">
+                <svg viewBox="0 0 36 36">
+                  <path class="circle-bg"
+                        d="M18 2.0845
+                           a 15.9155 15.9155 0 0 1 0 31.831
+                           a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle"
+                        data-final="85"
+                        stroke-dasharray="0, 100"
+                        d="M18 2.0845
+                           a 15.9155 15.9155 0 0 1 0 31.831
+                           a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                </svg>
+                <p class="label mt-2">IT Fundamentals</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+            <div class="progress-donut">
+              <svg viewBox="0 0 36 36">
+                <path class="circle-bg"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="circle"
+                      data-final="70"
+                      stroke-dasharray="0, 100"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+              </svg>
+              <p class="label mt-2">Cybserecurity (BT)</p>
+            </div>
+          </div>
+
+            
+            <div class="col-6 col-md-3 mb-4">
+              <div class="progress-donut">
+                <svg viewBox="0 0 36 36">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" 
+                  data-final="70"
+                  stroke-dasharray="0, 100"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                </svg>
+                <p title="IR and Forensic Analysis" class="label mt-2">Project Management</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="progress-donut">
+                <svg viewBox="0 0 36 36">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" 
+                  data-final="15"
+                  stroke-dasharray="0, 100" 
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                </svg>
+                <p class="label mt-2">Networking</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+  
+
+        <!-- Tools Tab -->
+        <div class="tab-pane fade" id="tools-content" role="tabpanel">
+            <div class="tools-grid">
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="70"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Snort</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="50"
+                    stroke-dasharray="0, 100" 
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Elastic</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="30"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">OpenCTI</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="70"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Exchange</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="76"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Wireshark</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle"
+                    data-final="20" 
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Sigma</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="40"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Autopsy</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="40"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Yara</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="50"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">FTK Imager</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="70"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">CyberChef</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="20"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">KAPE</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="60"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Powershell</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="70"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Volatility</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="70"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Python</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="65"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Intune</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="70"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Azure</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="80"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">ADUC</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="80"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">MS Defender</p>
+              </div>
+          
+              <div class="tool-item">
+                <div class="progress-donut">
+                  <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" 
+                    data-final="80"
+                    stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  </svg>
+                </div>
+                <p class="label">Crowdstrike Falcon</p>
+              </div>
+          
+            </div>
+          </div>
+          
+
+    
+        <!-- Certifications Tab -->
+<div class="tab-pane fade" id="certifications-content" role="tabpanel">
+  <div class="row text-center">
+  
+    <div class="col-6 col-md-3 mb-4">
+      <div class="certification-item">
+        <img src="certs/comptia-a+.png" alt="CompTIA A+ Certification">
+        <p class="label mt-2">CompTIA A+</p>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3 mb-4">
+      <div class="certification-item">
+        <img src="certs/comptia-net+.png" alt="CompTIA Network+ Certification">
+        <p class="label mt-2">CompTIA Network+</p>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3 mb-4">
+      <div class="certification-item">
+        <img src="certs/comptia-sec+.png" alt="CompTIA Security+ Certification">
+        <p class="label mt-2">CompTIA Security+</p>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3 mb-4">
+      <div class="certification-item">
+        <img src="certs/tryhackme-sal1.png" alt="TryHackMe SAL1">
+        <p class="label mt-2">TryHackMe SAL1</p>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3 mb-4">
+      <div class="certification-item">
+        <img src="certs/tryhackme-sal1.png" alt="TryHackMe SAL1">
+        <p class="label mt-2">Certified Cyber Defender BT1</p>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+  </section> 
+
+
+  
+  
+  
+  
+  
+  
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="projects-title text-center mb-5">My Projects</h2>
+      <div class="row">
+        <!-- Project Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="project1.html">
+              <img src="assets/images/thumbnail placeholder.jpg" class="card-img-top" alt="Project 1 Thumbnail">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Inline Snort Deployment</h5>
+              <p class="card-text">Using SNORT to block simulated malicious traffic sent to a victim VM.</p>
+              <a href="project1.html" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="project2.html">
+              <img src="assets/images/project2-thumbnail.jpg" class="card-img-top" alt="Project 2 Thumbnail">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Static and Dyanmic Malware Analysis</h5>
+              <p class="card-text">Me trying not to mess up and brick my workstation.</p>
+              <a href="project2.html" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project2.html">
+                <img src="assets/images/project3-thumbnail.jpg" class="card-img-top" alt="Project 3 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Incident Reponse</h5>
+                <p class="card-text">Deploying Splunk and using it to analyze malicious traffic and activity.</p>
+                <a href="project3.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project4.html">
+                <img src="assets/images/project2-thumbnail.jpg" class="card-img-top" alt="Project 4 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Threat Hunting</h5>
+                <p class="card-text">Let's find the needle!</p>
+                <a href="project4.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project2.html">
+                <img src="assets/images/project5-thumbnail.jpg" class="card-img-top" alt="Project 5 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Phishing Analysis</h5>
+                <p class="card-text">Something smells...phishy.(pun intended)</p>
+                <a href="project5.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Project Card 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project2.html">
+                <img src="assets/images/project6-thumbnail.jpg" class="card-img-top" alt="Project 6 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Digital Forensics</h5>
+                <p class="card-text">What happened here?</p>
+                <a href="project6.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Project Card 7 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project7.html">
+                <img src="assets/images/project7-thumbnail.jpg" class="card-img-top" alt="Project 7 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">PCAP Analysis</h5>
+                <p class="card-text">Analysis of malicious pcaps using Wireshark to find and prevent any further malicious activity.</p>
+                <a href="project7.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 8 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project8.html">
+                <img src="assets/images/project8-thumbnail.jpg" class="card-img-top" alt="Project 8 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Automated Email Header Analysis</h5>
+                <p class="card-text">Automating email header analysis using Python.</p>
+                <a href="project8.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 9 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project9.html">
+                <img src="assets/images/project9-thumbnail.jpg" class="card-img-top" alt="Project 9 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">AD Privlige Drift Auditor</h5>
+                <p class="card-text">No Jerry, I can't give you "all of the ACLs".</p>
+                <a href="project9.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 10 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project10.html">
+                <img src="assets/images/project10-thumbnail.jpg" class="card-img-top" alt="Project 10 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">"So You Want To Be a SOC Analyst"</h5>
+                <p class="card-text">Yes. Yes I do.</p>
+                <a href="project10.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 11 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project11.html">
+                <img src="assets/images/project11-thumbnail.jpg" class="card-img-top" alt="Project 11 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Kill Chain Simulation</h5>
+                <p class="card-text">Is that the Terminator sequel?</p>
+                <a href="project11.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Project Card 12 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="project12.html">
+                <img src="assets/images/project12-thumbnail.jpg" class="card-img-top" alt="Project 12 Thumbnail">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Soc-in-a-Box</h5>
+                <p class="card-text">I need more coffee.</p>
+                <a href="project12.html" class="btn btn-primary">Watch Now</a>
+              </div>
+            </div>
+          </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </section>
+  
+
+
+  </div>
+<section id="bio" class="about-section">
+  <div class="container about-content">
+    <div class="about-image">
+      <img src="assets/images/Iso_Artwork_Full.webp" alt="Your portrait">
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+     <p>
+  I’m Adrian Macadangdang, a passionate IT professional with experience in
+  system support, cybersecurity, and training. But let's be honest—you've already
+  seen my technical knowledge and credentials in the sections above. I'm not
+  here to repeat my resume. This is about
+  telling you who I am as a person.
+</p>
+<p>
+  Until the age of six, I grew up in Norway. We spent a lot of time outdoors and socializing,
+  which is probably why I still love nature so much. Academic subjects weren’t much of a concern back then.
+  But when my family moved back to the U.S., school was suddenly very different—and I couldn’t read at all,
+  even though it was expected. With no other choice, I learned to read in two weeks.
+  By the end of the year, I had the highest reading score in the class.
+</p>
+<p>
+  I don't have a college degree. Before IT, I worked as a phlebotomist with no technical background.
+  Still, I saw myself in tech. I had no clue how I'd get there, but I knew I'd figure it out.
+  I settled on IT and started studying for the A+ certification during the slow hours of my night shift
+  and in the mornings before work. One day, before my shift started, my supervisor frantically pulled me into her office.
+  "I think there's an open IT position here!" she said. I was skeptical because I wasn't qualified,
+  but she told me I wasn’t allowed to leave until I applied. She even wrote a glowing letter of recommendation
+  to the department manager and followed up with a call to the IT manager. I'll never be able to thank her enough
+  for believing in me.
+</p>
+<p>
+  Thanks to my supervisor, I landed an interview for that IT position. Across the table sat the head of IT,
+  a Senior Systems Engineer, and another Systems Engineer who had started on the same helpdesk team I was interviewing for
+  before getting promoted. The Senior Engineer asked, "So Adrian, I know you've mentioned you don't really have
+  any technical knowledge, so we'll keep that part of the interview brief. Do you know what Active Directory is?"
+  I shook my head no. He gave a brief nod. "So no hands-on experience then?" Again, I shook my head no.
+  Somehow, the rest of the interview went really well—and I landed the position despite my lack of technical knowledge.
+</p>
+<p> Oh. That's why I got the job. When I joined, there were only three people supporting an entire 
+  enterprise of over two thousand users. Normally there were five, but due to a promotion and 
+  another employee’s failing health, they were badly short-staffed. To put it bluntly, they were 
+  desperate. As a result, training was... minimal. I was thrown into as deep an end as you can 
+  imagine. Then, a month or two in, we lost another teammate and dropped back to three out of five. Three people (well, 2.5, really). Over 2,000 employees to support. One month of "training" with no prior experience. Needless to say, it was a massive challenge. But as I became more capable and contributed more to the team, I loved every second of it. </p>
+<p>
+ I love looking back on that time, because it was the start of such a wonderful journey. 
+ So much has changed since then—not just in terms of my technical knowledge and competency, 
+ but in who I am as a person. My ability to solve problems, work in a team, achieve objectives, 
+ and build strong relationships all grew tremendously. It was a phenomenal learning experience 
+ and the perfect growth environment for who I was then. It's the kind of opportunity I'll always 
+ be looking for, and I hope I continue to find it.  
+</p>
+    </div>
+  </div>
+</section>
+
+
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Adrian Macadangdang. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+  
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Helper: animate all .circle in a given tab content
+  function animateDonutsIn(tabPane) {
+    if (!tabPane) return;
+
+    const circles = tabPane.querySelectorAll('.circle');
+    circles.forEach(circle => {
+      const final = circle.getAttribute('data-final');
+      if (!final) return;
+
+      // Step 1: Instantly reset to 0 with no transition
+      circle.style.transition = 'none';
+      circle.setAttribute('stroke-dasharray', `0, 100`);
+
+      // Step 2: On next frame, re-enable transition and animate to final
+      requestAnimationFrame(() => {
+        circle.style.transition = 'stroke-dasharray 1s ease';
+        circle.setAttribute('stroke-dasharray', `${final}, 100`);
+      });
+    });
+  }
+
+  // Animate any active tab on page load
+  const initiallyActive = document.querySelector('.tab-pane.active.show');
+  animateDonutsIn(initiallyActive);
+
+  // Listen for Bootstrap tab switch events
+  document.querySelectorAll('[data-bs-toggle="tab"]').forEach(tabTrigger => {
+    tabTrigger.addEventListener('shown.bs.tab', event => {
+      const targetSelector = event.target.getAttribute('href') || event.target.getAttribute('data-bs-target');
+      if (!targetSelector) return;
+
+      const targetPane = document.querySelector(targetSelector);
+      animateDonutsIn(targetPane);
+    });
+  });
+});
+</script>
+
+
+
+</body>
+</html>

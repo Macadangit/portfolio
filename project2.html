@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 1 - My Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<script>
+    document.querySelectorAll('.circular-progress').forEach(function(el) {
+      const percent = el.getAttribute('data-percent');
+      el.style.setProperty('--percent', percent / 100);
+    });
+    </script>
+    
+<body class="project-page">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Adrian Macadangdang</a>
+    </div>
+  </nav>
+
+  <!-- Project Video -->
+  <section class="py-5">
+    <div class="container">
+      <div class="ratio ratio-16x9 mb-4">
+        <video controls width="100%" poster="">
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+      </div>
+<!-- Project Header Row with Title and Technologies -->
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-5">
+  <!-- Left: Title and Description -->
+  <div>
+    <h1 class="mb-2">Inline Snort Deployment</h1>
+  </div>
+
+  <!-- Right: Technologies Utilized Badges -->
+  <div class="mt-3 mt-md-0">
+    <h2 class="h5 fw-semibold mb-2 text-md-end">Technologies Utilized</h2>
+    <div class="d-flex flex-wrap gap-2 justify-content-md-end">
+      <span class="badge technology-badge">HTML5</span>
+      <span class="badge technology-badge">CSS3</span>
+      <span class="badge technology-badge">Bootstrap 5</span>
+      <span class="badge technology-badge">JavaScript</span>
+    </div>
+  </div>
+</div>
+
+<section class="container my-5">
+  <div class="row align-items-start g-4">
+
+    <p>Did you ever hear the tragedy of Darth Plagueis the wise? No. I thought not, It's No story the jedi would tell you. It's a sith legend. Darth Plagueis was a Dark Lord of the sith. He was so powerful, Yet so wise. He could use the force to influence the medi chlorians to create, Life. He had such a knowledge of the Dark side, He could even keep the ones he cared about, From dying. He could actually, Save the ones he cared about from death? The dark side of the force is a pathway to many abilities some consider to be unnatural. Well what happened to him? Darth Plagueis became so powerful that the only thing he feared was losing his power, Which eventually of course he did. Unfortunately, He taught his apprentice everything he knew. Then his apprentice killed him in his sleep. Ironic, He could save others from death, But not himself. Is it possible to learn this power? Not from a jedi.</p>
+
+    </div>
+      <a href="index.html" class="btn btn-outline-light mt-4">Back to Portfolio</a>
+    </div>
+  </section>
+    
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 [Your Name]. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
